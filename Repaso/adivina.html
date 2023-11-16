@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Juego Avidina el número</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Vinculamos el HTML con el archivo externo con la funcionalidad JavaScript-->    
+    <script src="js/funcionalidad.js"></script>
+    <!-- Vinculamos el HTML con el archivo externo hoja de estilos CSS-->
+    <link rel="stylesheet" href="css/misestilos.css">
+</head>
+
+<body>
+    <h1>Adivina qué número estoy pensando</h1>
+    <p id="instrucciones">
+        Debes adivinar el número del 1 al 100 que está pensando la máquina.
+        <ul>
+            <li>Caliente! Casi aciertas!!! si estas a 5 numeros</li>
+            <li>Templado!! Estas cerca! si estas a menos de 10</li>
+            <li>Frio, frio! si estás a 15 de diferencia</li>
+            <li>Muy frío!! si estas a más de 15</li>
+        </ul>
+    </p>
+    <div>
+        <button id="comenzarBtn" 
+                class="btn primary"
+                onclick="javascript: play();">Comenzar</button>
+    </div>
+    <h1 id="msgInfo"></h1><!--Mensaje de información-->
+    <!--Contendor para los botones de los números-->
+    <div id="panelBtn"></div>
+</body>
+
+</html>

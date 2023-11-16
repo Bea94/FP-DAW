@@ -1,0 +1,49 @@
+h1 {
+    color: rgb(4, 7, 81); 
+    font-family: 'Lato', sans-serif; 
+    font-size: 54px; 
+    font-weight: 300; 
+    line-height: 58px; 
+    margin: 0 0 58px; 
+}
+p { 
+    color: #adb7bd; 
+    font-family: 'Lucida Sans', Arial, sans-serif; 
+    font-size: 16px; 
+    line-height: 26px; 
+    text-indent: 10px; margin: 0;
+    width: 40%; 
+}
+li {
+    color: #adb7bd; 
+    font-family: 'Lucida Sans', Arial, sans-serif; 
+    font-size: 16px; 
+}
+.btn {
+    border: none; 
+    color: black; 
+    padding: 14px 28px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    margin: 5px;
+}
+.primary {
+    background-color: white; 
+    border: 2px solid #007bff;
+} 
+.primary:hover {
+    background: #0b7dda; 
+    color: white;
+}
+.danger {
+    background-color: #f44336;
+    border: 2px solid #f44336
+} 
+.danger:hover {
+    background: #da190b; 
+    color: white;
+}
+.ganador {
+    background-color: rgb(29, 39, 99);
+    border: 2px solid #f44336
+} 
